@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu-wrapper {
+    background-color: rgb(23, 21, 21);
+}
+.menulist {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-item a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+.menu-item a:hover {
+    color: rgb(127, 115, 231);
+    transition: all ease-in-out .3s;
+}
+.login-form {
+    margin: 50px 0;
+}
+.login-form form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+.login-form form input {
+    padding: 10px;
+}
+.login-subhedding {
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+}
+footer p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 5px
+}
