@@ -1,4 +1,4 @@
-// const boxWrapper = document.getElementById('box-wrapper');
+const boxWrapper = document.getElementById('box-wrapper');
 // const boxes = boxWrapper.children; // HTMLCollection
 // console.log(boxes)
 // console.log(boxes[0]); // Using Index WORKS!
@@ -11,3 +11,10 @@
 // console.log(title)
 // title.style.color = 'red'
 // title.setAttribute('title', 'this is title')
+
+
+// boxWrapper.childNodes[1].style.background = 'red'
+// const div = document.createElement('div')
+// div.classList.add('demo')
+// div.innerText = 'test'
+// boxWrapper.appendChild(div)
