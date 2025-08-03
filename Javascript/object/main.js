@@ -1,3 +1,14 @@
+const obj = {
+    name: 'coder',
+    age: 28
+}
+console.log(Object.keys(obj))
+console.log(Object.values(obj))
+console.log(Object.entries(obj))
+for (const key in obj) {
+    console.log(obj[key])
+}
+
 const student = [
     {
     name: 'rayhan',
@@ -24,4 +35,4 @@ const student = [
     }
 }
 ]
-console.log(student)
+// console.log(student)
