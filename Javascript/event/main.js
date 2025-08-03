@@ -8,12 +8,13 @@
 // })
 
 // add todo
-document.getElementById('todo-form').addEventListener('submit', (event) => {
-  event.preventDefault()
+document.getElementById("todo-form").addEventListener("submit", (event) => {
+  event.preventDefault();
 
-  const inputValue = document.getElementById('todo-input').value
-    const ul = document.getElementById('ul')
-    const li = document.createElement('li')
-    li.innerText = inputValue
-    ul.appendChild(li)
+  const inputValue = document.getElementById("todo-input");
+  const ul = document.getElementById("ul");
+  const li = document.createElement("li");
+  li.innerText = inputValue.value;
+  ul.appendChild(li);
+  inputValue.value = "";
 });
