@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        background-color: black;
+    }
+    .main-menu-wrapper {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    } 
+    .main-menu-wrapper li a {
+        color: #fff;
+        font-size: 18px;
+        padding: 10px;
+        display: block;
+        transition: .3s;
+    }
+    .main-menu-wrapper li a:hover{
+        background-color: bisque;
+        color: #000;
+    }
+    .blog-li {
+        position: relative;
+    }
+    .blog-li:hover .blog-dropdown {
+        display: block;
+        visibility: visible;
+    }
+    .blog-dropdown {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        background-color: rgb(21, 11, 153);
+        padding: 20px;
+        display: none;
+        visibility: hidden;
+        width: 206px;
+    }
+     a {
+        text-decoration: none;
+    }
+           .main-menu-wrapper li:hover > a {
+            background-color: bisque;
+            color: #000;
+        }
+        .blog-dropdown li a:hover {
+        background-color: aquamarine;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <ul class="main-menu-wrapper">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li class="blog-li"><a href="">Blog</a>
+                    <ul class="blog-dropdown">
+                        <li><a href="#">Dropdown menu - 1</a></li>
+                        <li><a href="#">Dropdown menu - 2</a></li>
+                        <li><a href="#">Dropdown menu - 3</a></li>
+                        <li><a href="#">Dropdown menu - 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
