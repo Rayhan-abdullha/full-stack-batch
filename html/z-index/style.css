@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero-bg {
+    background-image: url('./bg.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 200px 20px;
+    position: relative;
+    z-index: 999;
+}
+#bg-black {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .4;
+    z-index: -1;
+}
+.hero-title {
+    color: white;
+}
+p {
+    margin: 10px 0;
+    color: white;
+}
+#read-me {
+    background-color: coral;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 7px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 1px 2px 0px 0px black;
+}
