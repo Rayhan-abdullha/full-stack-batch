@@ -38,12 +38,33 @@
 
 
 // create tag
-const element = document.createElement('h1')
-element.innerText = 'Hello JS'
-function style(prop, val) {
+// const element = document.createElement('h1')
+// element.innerText = 'Hello JS'
+function style(element, prop, val) {
     element.style[`${prop}`] = val
 }
-style('color', 'white')
-style('backgroundColor', 'red')
-document.body.appendChild(element)
-console.log(document.body)
+// style('color', 'white')
+// style('backgroundColor', 'red')
+// document.body.appendChild(element)
+// console.log(document.body)
+
+
+// card
+// const divsClass = document.getElementsByClassName("card")
+// for (const element of divsClass) {
+//     style(element, 'color', 'red')
+// }
+
+//
+// const dataAttribute = document.querySelector('[data-test]')
+// console.log(dataAttribute.childNodes)
+
+// button
+// document.querySelector('[data-test]').addEventListener('click', () => {
+    
+// })
+// document.addEventListener('input', (e) => {
+//         console.log(e.target.value)
+        
+//     })
+
