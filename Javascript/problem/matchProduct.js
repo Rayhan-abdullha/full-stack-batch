@@ -83,5 +83,7 @@ function searchByName(gadgets = [], search = '') {
             matched.push(product)
         }
         return matched
-    }mklkl
-console.log('smart watc'.toLowerCase().includes('smart'))]\';'h[p ]++++++++++++++++++
+    }
+  console.log('smart watc'.toLowerCase().includes('smart'))
+  return []
+}
