@@ -1,0 +1,5 @@
+import './object'
+import './function'
+import './typeInference'
+import './typeAlias'
+import './ts'
