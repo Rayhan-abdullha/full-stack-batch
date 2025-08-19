@@ -4,4 +4,6 @@
 // import './typeAlias'
 // import './ts'
 // import './oop/index'
-import './practice'
+// import './narrowing'
+import './main'
+// import './generic'

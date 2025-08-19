@@ -1,5 +1,5 @@
 
-type IntersectionType = Type1 & Type2 & Type3;
+// type IntersectionType = Type1 & Type2 & Type3;
 
 // Use Case 1: Merging Interfaces
 type Person = {
