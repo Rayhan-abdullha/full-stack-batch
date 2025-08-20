@@ -5,5 +5,5 @@
 // import './ts'
 // import './oop/index'
 // import './narrowing'
-import './main'
-// import './generic'
+// import './main'
+import './generic'

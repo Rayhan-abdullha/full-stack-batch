@@ -13,4 +13,4 @@ function doSomting(man: unknown) {
         console.log(man.toUpperCase())
     }
 }
-doSomting('Ronaldo')
+// doSomting('Ronaldo')
