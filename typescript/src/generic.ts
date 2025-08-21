@@ -17,5 +17,24 @@ function process<T>(value: T): void {
     }
 }
 
-process('hello'); // 5
-process(3.14159); // 3.14
+// process('hello'); // 5
+// process(3.14159); // 3.14
+
+////////////////////
+function id<T>(x: T): T{
+    return x
+}
+const aId = id('ipcdd')
+const bId = id(1234)
+
+function first<T>(arr: T[]): T | undefined {
+  return arr[0];
+}
+
+const n = first([1, 2, 3]);   // number | undefined
+const s = first(["a", "b"]);  // string | undefined
+
+function pair<A, B>(a: A, b: B): [A, B] {
+    return [a, b]
+}
+console.log(pair(3, 4))
