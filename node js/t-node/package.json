@@ -1,0 +1,30 @@
+{
+  "name": "t-node",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/app/server.ts",
+    "build": "tsc",
+    "start": "node dist/app/server.js",
+    "lint": "eslint 'src/**/*.ts' --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "dotenv": "^17.2.1",
+    "eslint": "^9.8.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongoose": "^8.17.2"
+  }
+}
