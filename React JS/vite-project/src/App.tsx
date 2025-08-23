@@ -1,11 +1,13 @@
-import React from 'react'
-import UserProfile from './components/UserProfile'
+import { Route, Routes } from "react-router-dom"
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <UserProfile/>
-    </div>
+    <div className="w-[400px] flex p-12">
+      <Routes>
+        <Route path="/" element={<h1>Home React</h1>} /> 
+        <Route path="/home-1" element={<h1>Home- 2 React</h1>} /> 
+     </Routes>
+   </div>
   )
 }
 

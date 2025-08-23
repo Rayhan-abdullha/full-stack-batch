@@ -1,0 +1,14 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    @layer components {
+      .card {
+        @apply bg-gray-400 rounded-lg shadow-md p-6 max-w-sm mx-auto mt-10;
+      }
+    }
+
+    @layer base {
+      button {
+        @apply bg-gray-400;
+      }
+    }
+
