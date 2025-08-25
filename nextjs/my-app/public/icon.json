@@ -1,0 +1,5 @@
+{
+    "remove": "./assets/images/icon-remove-item.svg",
+    "cart": "./assets/images/icon-add-to-cart.svg",
+    "tree": "./assets/images/icon-carbon-neutral.svg"
+}

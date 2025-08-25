@@ -6,4 +6,5 @@
 // import './oop/index'
 // import './narrowing'
 // import './main'
-import './generic'
+// import './generic'
+import './DSA/hasTable'
